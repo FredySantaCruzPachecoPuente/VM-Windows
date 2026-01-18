@@ -149,9 +149,9 @@ jobs:
 
           Write-Host "-------------------------------------------------------"
 
-           Write-Host "TAILSCALE_IP"
+          Write-Host "$env:TAILSCALE_IP"
 
-            Write-Host "------------------------------------------------------"
+          Write-Host "------------------------------------------------------"
           
       - name: Maintain Connection
         run: |
